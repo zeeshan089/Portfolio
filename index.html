@@ -1,0 +1,231 @@
+<!-- 
+  Hello 😊.
+
+  This template is designed and developed by Nisar Hassan Naqvi
+  for anyone to use for free or customize the way they like.
+
+  Github Repo: https://github.com/nisarhassan12/portfolio-template/
+  My Website: https://nisar.dev
+
+  For business & inquires, contact me => syednisarhassan12@gmail.com
+-->
+
+<!--
+  Follow the instructions written in comments to create your stunning portfolio
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+
+  <!-- Put your site title here -->
+  <title>
+    Syed Zeeshan Ali | Developer based in Bangalore, India.
+  </title>
+
+  <meta name="description" content="Add small description of yourslef.">
+  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
+  <meta name="keywords" content="Put your name, skills and some coding keywords" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+  <!-- ***** Header ***** -->
+
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <!-- Replace the following name with your name -->
+          <span>Syed Zeeshan Ali </span>
+        </h1>
+        <!-- Put a small paragraph about yourself -->
+        <p>Developer based in Bangalore, India.</p>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <!-- ***** Work ***** -->
+
+    <section class="work" id="work">
+      <div class="row">
+        <div class="work__boxes">
+
+          <!-- Each div with the work__box class is a project. -->
+
+          <div class="work__box">
+            <div class="work__text">
+              <h2>Skills</h2>
+
+              <ul class="work__list">
+                <li>Python, Django, Flask, Serverless Framework with AWS Lambda</li>
+                <li>Docker, Kubernetes, AWS Lambda, Jenkins</li>
+                <li>AWS, GCP</li>
+                <li>MySQL, Redis</li>
+              </ul>
+            </div>
+          </div>
+
+          <h2>Organizations</h2>
+
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Pasarpolis India Pvt Ltd</h3>
+              <h3>Tech Lead</h3>
+
+              <ul class="work__list">
+                <li>Lead and developed the Consumer product for purchase and claims of Insurance policies. Designed the architecture and implemented the Insurance Policy products purchase flow and Claims flow which allowed our customers to seamlessly purchase the policy products and make claims on the purchased policies with zero human intervention.</li>
+                <li>Integrated the Agency product with the Consumer product. In the Agency product, Insurance agents are responsible for selling and claiming the policies for the customers. Designed the architecture and integrated this Agency product with Consumer product. This integration allowed all our customers to purchase and claim policies by themselves and without the need of an agent to do it.</li>
+                <li>Data Archival: Organization’s database had over 10 TBs of Relational data of Insurances. Due to this, our database was very slow for normal queries and was getting timed out for large queries. I was tasked to archive the data which belonged to expired insurances, and this was around 8 TBs of data in total. I designed and implemented the data archival flow which uses BigQuery and Google cloud bucket to archive this huge dataset’s expired insurances. </li>
+                <li>Partner Report generation: The monthly and quarterly report generation, for our partner organizations who were selling our insurance products, was facing overload issues and was very slow in generating and sending reports. This was mainly due to the sheer size and the number of reports being generated. I redesigned and implemented the Report generation product. We benchmarked the maximum capacity of the report generation system first, and then implemented the new limitation mechanism based on that benchmarked data.</li>
+                <li>I work closely with Senior management, Product managers, and other Engineering leaders for product requirements, impact analysis and to finalize product offerings.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Comstruct GMBH</h3>
+              <h3>Senior Backend Developer</h3>
+
+              <ul class="work__list">
+                <li>Redesigned and implemented the marketplace data platform using Python Django. Improved data caching, data partitioning and deduplication, optimizing the overall system performance.</li>
+                <li>Designed and implemented a service Python with Serverless Framework that reads invoice and purchase order emails between suppliers and consumers using OCR and updates their respective dashboards with the extracted information.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Truckbook Technologies Pvt Ltd</h3>
+              <h3>Senior Backend Engineer</h3>
+
+              <ul class="work__list">
+                <li>Implemented Content Moderation service using AWS Lambda and Serverless framework. This service rejects graphically violent and inappropriate images and videos uploaded by users.</li>
+                <li>Decoupled the feed generation feature from the monolithic backend and made it an independent microservice. Resulting in faster feed generation and improved performance.</li>
+                <li>Implemented Trip plan service using Python Django for the heavy long haul trucks. My service recommends the truck drivers on fuel stations, parking spots, eating places, weather forecast, etc using Here Maps APIs</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Great Learning Pvt Ltd</h3>
+              <h3>Senior Software Engineer</h3>
+
+              <ul class="work__list">
+                <li>Designed and implemented an auto-evaluation platform for assessment of backend solutions for Django, Spring, and NodeJS problem statements.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Hackerearth Technologies Pvt Ltd</h3>
+              <h3>Software Developer</h3>
+
+              <ul class="work__list">
+                <li>Developed Backends in Python-Django for our multiple products like Recruit, Sprint etc. Recruit was an online judge to evaluate code submissions and Sprint was a Hackathon management platform both implemented using Python with Django framework.</li>
+                <li>Developed Internal tools/Dashboard for our marketing team in Python-Django which enables them to query data using custom parameters for analytics and business intelligence.</li>
+                <li>Managed a team of in-house SMEs for technologies like Algorithms and Data structures, Machine Learning, Cyber security, and remote SMEs. </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Aindra Systems Pvt Ltd</h3>
+              <h3>Product Engineer</h3>
+
+              <ul class="work__list">
+                <li>Worked on the product Drishti - Mobile Visual Identification and Recognition System. Drishti , our technology based on Artificial Intelligence, provides handheld devices with inbuilt cameras like smartphones, tablets and laptops, the ability to detect and identify people. </li>
+                <li>RESTful APIs : I have written RESTful APIs in Java EE and Python Django. These APIs act as middleware between our system and customer applications. We have used Jboss Application Server and Apache to serve these and we use Hibernate Framework in Java and SQLALchemy ORM to map to Mysql Database.</li>
+                <li>Android Application : I have written an Android Application, which captures and uploads facial images for recognition and uses our face recognition algorithm using the aforementioned RESTful APIs.</li>
+                <li>Web UI and Back End : I have written Javascript for Web UI's Front End which populates UI based on user's authentication and authorization, forms and parses XML based on the inputs provided and makes REST calls. I have also written Php Back End which is responsible for our Web UI related traffic and queries.</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <!-- Replace the below paragraph with info about yourself -->
+            <p>
+              An experienced Computer Science engineer, passionate about beautiful and clean code. And when I am not coding I watch football and eat pizza. 
+            </p>
+            <!-- Provide a link to your resume -->
+          </div>
+
+          <div class="about__photo-container">
+            <!-- Add a nice photo of yourself -->
+            <img class="about__photo" src="./images/PFP.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Get in Touch</h2>
+      <div class="contact__info">
+        <p>zeeshanali0089@gmail.com</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <!-- Update the links to point to your accounts -->
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://www.linkedin.com/in/zeeshanali089/">
+            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+      </ul>
+
+      <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
+</body>
+
+</html>
